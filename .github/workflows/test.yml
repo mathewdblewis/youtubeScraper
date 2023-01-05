@@ -14,4 +14,8 @@ jobs:
         run: grep -c ^processor /proc/cpuinfo
       - name: where is stuff?
         run: ls -a /
+      - name: do more lsting
+        run: ls -a /opt
+      - name: where is conda?
+        run: which conda
         
