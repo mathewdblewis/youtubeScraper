@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: look inside conda envs
-        run: ls /usr/share/miniconda/envs/*
+        run: ls -R /usr/share/miniconda/
 #       - name: checkout repo
 #         uses: actions/checkout@v2.3.4
 #       - name: how many cores?
