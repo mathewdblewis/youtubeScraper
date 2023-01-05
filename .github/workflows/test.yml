@@ -11,7 +11,7 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v2.3.4
       - name: how many cores?
-        run: grep -c ^processor /proc/cpuinfoecho
+        run: grep -c ^processor /proc/cpuinfo
       - name: where is stuff?
         run: ls -a /
       - name: do more lsting
