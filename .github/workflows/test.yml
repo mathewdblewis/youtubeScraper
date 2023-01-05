@@ -11,7 +11,7 @@ jobs:
       - name: look inside conda envs
         run: ls /usr/share/miniconda/
       - name: checkout repo
-        uses: actions/checkout@latest
+        uses: actions/checkout@v3
 #       - name: how many cores?
 #         run: grep -c ^processor /proc/cpuinfo
 #       - name: where is stuff?
