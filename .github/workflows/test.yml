@@ -17,5 +17,5 @@ jobs:
       - name: do more lsting
         run: ls -a /opt
       - name: where is conda?
-        run: which conda
+        run: conda info --envs
         
