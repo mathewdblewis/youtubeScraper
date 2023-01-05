@@ -1,4 +1,3 @@
-
 name: how many cores?
 on:
   workflow_dispatch:
@@ -8,18 +7,6 @@ jobs:
     name: run the code
     runs-on: ubuntu-latest
     steps:
-      - name: look inside conda envs
-        run: ls /usr/share/miniconda/*
-#       - name: checkout repo
-#         uses: actions/checkout@v3
-#       - name: how many cores?
-#         run: grep -c ^processor /proc/cpuinfo
-#       - name: where is stuff?
-#         run: ls -a /
-#       - name: do more lsting
-#         run: ls -a /opt
-#       - name: where is conda?
-#         run: conda info --envs
-#       - name: list
-#         run: ls ~; echo ~
+      - name: do some stuff
+        run: ls
         
