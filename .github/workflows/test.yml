@@ -1,0 +1,15 @@
+
+name: how many cores?
+on:
+  workflow_dispatch:
+
+jobs:
+  my-job:
+    name: run the code
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v2.3.4
+      - name: how many cores?
+        run: grep -c ^processor /proc/cpuinfo
+        
